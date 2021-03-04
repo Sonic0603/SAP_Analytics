@@ -1,0 +1,49 @@
+
+{
+  "eula": "",
+  "vendor": "SAP",
+  "license": "",
+  "id": "com.sap.sac.sample.echarts.gauge",
+  "version": "1.0.0",
+  "name": "ECharts Custom Gauge",
+  "newInstancePrefix": "EChartCustomGauge",
+  "description": "A sample custom widget wrapped EChart Custom Gauge",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-echarts-gauge",
+      "url": "http://localhost/custom_gauge/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 420
+		}
+  },
+  "methods": {
+  		  "render": {
+			  "description": "Render",
+			  "parameters": [
+				  {
+					  "name": "total",
+					  "type": "number",
+					  "description": "The json"
+				  },
+				  {
+					  "name": "value",
+					  "type": "number",
+					  "description": "The json"
+				  }
+			  ]
+		  }
+  },
+  "events": {
+  }
+}

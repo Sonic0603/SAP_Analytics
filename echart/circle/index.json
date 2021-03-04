@@ -1,0 +1,33 @@
+{
+  "eula": "",
+  "vendor": "SAP",
+  "license": "",
+  "id": "com.sap.sac.sample.echarts.circle",
+  "version": "1.0.0",
+  "name": "ECharts Circle",
+  "newInstancePrefix": "EChartCircle",
+  "description": "A sample custom widget wrapped EChart Circle",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-echarts-circle",
+      "url": "http://localhost/circle/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 420
+		}
+  },
+  "methods": {
+  },
+  "events": {
+  }
+}
