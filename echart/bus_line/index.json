@@ -12,7 +12,7 @@
     {
       "kind": "main",
       "tag": "com-sap-sample-echarts-bus_line",
-      "url": "http://localhost/bus_line/main.js",
+      "url": "https://cdn.jsdelivr.net/gh/Sonic0603/SAP_Analytics@main/echart/bus_line/main.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
